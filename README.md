@@ -7,7 +7,7 @@ Assuming you have python3 and sqlite installed, in order to initialize database,
 In order to start the server, run:
 >> python3 manage.py runserver
 
-If you get an error-message such as "No mode named <module_name>", run:
+If you get an error-message such as "No module named <module_name>", run:
 >> pip install <module_name>
 
 Enjoy!
