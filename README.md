@@ -11,9 +11,13 @@ If you get an error-message such as "No module named <module_name>", run:
 >> pip install <module_name>
 
 The server sends responses in json format to
+
 GET /employees: returns a list of all employees and their parameters
+
 GET /carmodels: returns a list of all carmodels and their parameters
+
 GET /total_sales: returns a list of all employees and their accumulated total sales
+
 POST /carmodels: saves a new carmodel and returns it:
 For example, sending POST /carmodels with the data
 {
