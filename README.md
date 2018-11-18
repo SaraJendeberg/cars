@@ -1,7 +1,7 @@
 # cars
-Webserver built in python and Django using an sqlite-database. Assuming you have python3 and sqlite installed.
+Webserver built in Python and Django using an sqlite-database. 
 
-In order to initialize database, cd to directory /djangoproject on your computer, run the command:
+Assuming you have python3 and sqlite installed, in order to initialize database, cd to the directory where you downloaded the /car folder on your computer, run the command:
 >> sqlite3 car_db.sqlite < database_setup.sql
 
 In order to start the server, run:
