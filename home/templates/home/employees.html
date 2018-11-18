@@ -1,0 +1,8 @@
+{% extends "home/base.html" %}
+{% block content %}
+    <h1>Våra anställda är: </h1>
+    {% for post in posts %}
+        <h1> Id: {{ post.id }} </h1>
+        <p> Name: {{ post.name }} </p>
+    {% endfor %}
+{% endblock content %}
